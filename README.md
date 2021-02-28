@@ -12,14 +12,14 @@ Reddit Username Generator is a *simple* project that generates usernames for you
 
 This Generator requires <a href="https://nodejs.org/en">Node.JS<img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" width="18"></a>  v12+ to run.
 
-- Installing `request` and init the project
+- Installing <a href="https://www.npmjs.com/package/request">request</a> and init the project 📦
 
 ```sh
 npm install request
 npm init -y
 ```
 
-- Running
+- Running 🚀
 
 ```sh
 node index.js
