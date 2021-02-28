@@ -25,6 +25,4 @@ Running
 node index.js
 ```
 
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   
+Open issue if you want help!
