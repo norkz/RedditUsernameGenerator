@@ -1,28 +1,33 @@
 # Reddit Username Generator
-## _Using Reddit API_
+## _Using Reddit API_ <a href="https://reddit.com"> <img src="https://logodownload.org/wp-content/uploads/2018/02/reddit-logo-16.png" width="20"> </a>
+## Technologies <a href="https://nodejs.org/en"><img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" width="18"></a> <a href="https://javascript.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" width="18"></a>
+Reddit Username Generator is a *simple* project that generates usernames for you using Reddit suggestions! 🎉
+## 🤔 How it works?
 
-Reddit Username Generator is a simple project that generates usernames for you!
-## How it works?
-
-- Send a request to reddit generate_username.json API
+- Opens <a href="https://www.reddit.com/api/v1/generate_username.json">This</a> Reddit API
 - Read everything
 - Prints on console with a better format
 
-## Installation
+## 🔧 Installation
 
-This Generator requires [Node.JS](https://nodejs.org/) v12+ to run.
+This Generator requires [Node.JS]<a href="https://nodejs.org/en"><img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" width="18"></a>  v12+ to run.
 
-Install request and init the package.json
+- Installing `request` and init the project
 
 ```sh
 npm install request
 npm init -y
 ```
 
-Running
+- Running
 
 ```sh
 node index.js
 ```
 
-Open issue if you want help!
+## ❔ Questions
+*Is it illegal?*
+= No! this is just a API that Reddit uses when you are creating your profile!
+
+*I got rate-limited, what did i do?*
+= Wait 5 seconds and try again!
